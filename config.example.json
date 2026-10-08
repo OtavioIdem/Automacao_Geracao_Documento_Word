@@ -1,0 +1,7 @@
+{
+  "template": "templates/contrato.docx",
+  "data_dir": "data",
+  "output_dir": "output",
+  "required_fields": ["cliente_nome", "cliente_documento", "data", "valor"],
+  "output_name_pattern": "contrato-{cliente_documento}.docx"
+}
